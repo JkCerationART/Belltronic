@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+:root {
+    /*Colors*/
+    --light-blue: rgb(56 182 255);
+    --Dark-Blue: rgb(49 81 99);
+    --light-green: rgb(37 211 102);
+    --White: rgb(255 255 255);
+
+    --font: 'Poppins';
+    --font-500: 500;
+    --font-second:'Poppins';
+    --font-400: 400;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    background: linear-gradient(rgb(39, 85, 112), rgb(83, 150, 189));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0%;
+    /**Fill: Linear Gradient #60ACD9 @ 20.19% #327297 @ 85.27%;**/
+    
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    align-items: center;
+    font-family: var(--font);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 923px;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: var(--Dark-Blue);
+    font-family: var(--font-second);
+    font-size: 2rem; 
+}
+
