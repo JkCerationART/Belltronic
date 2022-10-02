@@ -23,14 +23,23 @@
         </div> <!--div title-->
 
         <div class="form">
-            <img src="/Gtronic/images/whatsapp-logo.png">
-                <p class="instructions">Introduce el número de WhatsApp que deseas revisar</p>
-                   <div class="button">
-                    <button type="button" onclick="alert('HELLO MANCO!!')">Comprueba tu seguridad</button>
-                   </div>
-                        <div class="box-online">
+            <div class="wha">
+                <img class src="/Gtronic/images/whatsapp-logo.png">
+            </div><!--div de la imagen de wha-->
+                    <p class="instructions">Introduce el número de WhatsApp que deseas revisar</p>
+            <div class="campos">
+                <!--<input id="phone" type="tel">--><!--valor para campo de numero de phone-->
+                    <button type="button" class="button" onclick="alert('')">Comprueba tu seguridad</button>
                         
-                        </div> <!--div box-online-->
+            </div>
+            <div id="current_date"></p>
+                <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+                document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+                </script>
         
         </div> <!--div container form-->
     </div> <!--div container-->

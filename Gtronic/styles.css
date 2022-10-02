@@ -46,22 +46,56 @@ body{
 .logo{
     display: flex;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .title{
     align-items: center;
-    font-family: var(--font);
-    font-size: 1rem;
+    font-family: var(--font-second);
+    font-size: 1.1rem;
     display: flex;
     justify-content: center;
+    color: var(--White);
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .form{
-    width: 923px;
+    max-width: 923px;
+    /**height: 530px;**/ /**Podrtia usar este valor para darkle la altura que deseo pero por el momento esperaremos para ver si enconteramos una mejor opcion**/
     padding: 30px;
+    padding-top: 20px;
     border-radius: 30px;
     background-color: var(--Dark-Blue);
     font-family: var(--font-second);
-    font-size: 2rem; 
+    font-size: 1.8rem;
+    align-items: center; 
+    color: var(--White);
+
+}
+
+.wha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    height: 2.8em;
+    background: var(--light-green);
+    color: var(--White);
+    font-family: var(--font-second);
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 32px;
+}
+
+.campos{
+    display: flex;
+    justify-content: center;
 }
 
